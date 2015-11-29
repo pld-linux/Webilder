@@ -9,7 +9,7 @@ Source0:	http://www.webilder.org/static/downloads/%{name}-%{version}.tar.gz
 URL:		http://www.webilder.org/
 BuildRequires:	python-devel
 BuildRequires:	python-gnome-desktop-applet
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 Requires:	python-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
